@@ -1,3 +1,10 @@
+cmvspmvs (2-0archeos2) theodoric; urgency=low
+
+  * Added NUMBITS flag to graclus compilation
+  * Added some copyrights
+
+ -- Romain Janvier <romain.janvier@hotmail.fr>  Fri, 18 Jan 2013 19:22:51 +0100
+
 cmvspmvs (2-0archeos1) theodoric; urgency=low
 
   * Initial release
