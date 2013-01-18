@@ -1,0 +1,30 @@
+Source: cmvspmvs
+Section: photogrammetry
+Priority: extra
+Maintainer: Romain Janvier <romain.janvier@hotmail.fr>
+Build-Depends: debhelper (>= 9.0.0)
+Standards-Version: 3.9.4
+Homepage: http://www.archeos.eu
+ Vcs-Git: git://github.com/archeos/cmvs-pmvs.git
+ Vcs-Browser: https://github.com/archeos/cmvspmvs-archeos/
+
+Package: cmvspmvs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: PMVS is a multi-view stereo software
+ PMVS is a multi-view stereo software that takes a set of images and camera
+ parameters, then reconstructs 3D structure of an object or a scene visible in
+ the images. Only rigid structure is reconstructed, in other words, the
+ software automatically ignores non-rigid objects such as pedestrians in front
+ of a building. The software outputs a set of oriented points instead of a
+ polygonal (or a mesh) model, where both the 3D coordinate and the surface
+ normal are estimated at each oriented point.
+ This package include PMVS2
+ .
+ This package also include CMVS. This software takes the output of a structure-from-motion
+ (SfM) software as input, then decomposes the input images into a set of image
+ clusters of managable size. An MVS software can be used to process each
+ cluster independently and in parallel, where the union of reconstructions from
+ all the clusters should not miss any details that can be otherwise obtained
+ from the whole image set. CMVS should be used in conjunction with an SfM
+ software Bundler and an MVS software.
