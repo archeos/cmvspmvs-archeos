@@ -1,2 +1,3 @@
 0001-graclus-now-compile-with-gcc4-7.patch
 0002-less-embedded-libs.patch
+0004-add-a-dummy-install-target.patch

@@ -1,0 +1,8 @@
+--- a/program/main/CMakeLists.txt
++++ b/program/main/CMakeLists.txt
+@@ -16,3 +16,5 @@ TARGET_LINK_LIBRARIES(cmvs graclus_lib c
+ ELSE(WIN32)
+ TARGET_LINK_LIBRARIES(cmvs cmvs_lib graclus_lib image_lib ${PRECOMPILED_LIBS})
+ ENDIF(WIN32)
++
++INSTALL(TARGETS cmvs genOption pmvs2 RUNTIME DESTINATION bin )
