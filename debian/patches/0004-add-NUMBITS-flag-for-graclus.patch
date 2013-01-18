@@ -1,0 +1,17 @@
+--- a/program/thirdParty/graclus1.2/metisLib/CMakeLists.txt
++++ b/program/thirdParty/graclus1.2/metisLib/CMakeLists.txt
+@@ -5,8 +5,9 @@ INCLUDE_DIRECTORIES("./")
+ FILE(GLOB LIBRARY_FILES_C "*.c")
+ FILE(GLOB LIBRARY_FILES_H "*.h")
+ 
++IF(CMAKE_SIZEOF_VOID_P EQUAL 8)
++	SET(CMAKE_C_FLAGS  "${CMAKE_C_FLAGS} -DNUMBITS=64")
++ENDIF(CMAKE_SIZEOF_VOID_P EQUAL 8)
+ 
+-ADD_LIBRARY(metisLib
+-${LIBRARY_FILES_C}
+-${LIBRARY_FILES_H}
+-)
+\ No newline at end of file
++
++ADD_LIBRARY(metisLib ${LIBRARY_FILES_C} ${LIBRARY_FILES_H})
