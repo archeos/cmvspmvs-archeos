@@ -1,5 +1,7 @@
 cmvspmvs (2-0archeos1) theodoric; urgency=low
 
-  * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+  * Initial release
+  * Tweaks to compile with GCC 4.7
+  * Rely on external (from repos) libgsl 
 
- -- Romain Janvier <romain.janvier@hotmail.fr>  Fri, 18 Jan 2013 10:02:49 +0100
+ -- Romain Janvier <romain.janvier@hotmail.fr>  Fri, 18 Jan 2013 15:09:05 +0100
