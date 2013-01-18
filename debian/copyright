@@ -7,9 +7,23 @@ Copyright: 2007-20011 Jean Ponce jean.ponce@ens.fr
            2007-2011 Yasutaka Furukawa furukawa@cs.washington.edu
 License: GPL-2.0+
 
-Files: ./*/CMakeLists.txt
+Files: */CMakeLists.txt
 Copyright: 2010-20012 pmoulon@gmail.com
 License: GPL-2.0+
+
+Files: program/base/pmvs/optim.*  
+Copyright: 2012 Nghia Ho
+		   2007-20011 Jean Ponce jean.ponce@ens.fr
+           2007-2011 Yasutaka Furukawa furukawa@cs.washington.edu
+Licence: GPL-2.0+
+
+Files: program/thirdparty/clapack-3-2-1
+Copyright: 1992-2008 The University of Tennessee
+Licence: GPL-2.0+
+
+Files: program/thirdparty/pthread.*
+Copyright: Henri Astre
+Licence: GPL-2.0+
 
 Files: debian/*
 Copyright: 2013 Romain Janvier <romain.janvier@hotmail.fr>
