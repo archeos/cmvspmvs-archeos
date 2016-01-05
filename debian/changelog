@@ -1,9 +1,12 @@
 cmvspmvs (2-0archeos2) theodoric; urgency=low
 
+  [ Romain Janvier ]
   * Added NUMBITS flag to graclus compilation
   * Added some copyrights
 
- -- Romain Janvier <romain.janvier@hotmail.fr>  Fri, 18 Jan 2013 19:22:51 +0100
+  [ Fabrizio Furnari ]
+
+ -- Fabrizio Furnari <fab.furnari@gmail.com>  Tue, 05 Jan 2016 16:04:21 +0100
 
 cmvspmvs (2-0archeos1) theodoric; urgency=low
 
